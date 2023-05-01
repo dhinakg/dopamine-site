@@ -11,11 +11,9 @@ body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
-	background: linear-gradient(
-		to bottom,
-		var(--dark-color),
-		var(--bright-color)
-	);
+	background: linear-gradient(to bottom,
+			var(--dark-color),
+			var(--bright-color));
 	background-repeat: no-repeat;
 	width: 100%;
 }
@@ -110,7 +108,7 @@ ul {
 	gap: 2rem;
 }
 
-.main-section > div {
+.main-section>div {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -155,7 +153,7 @@ ul {
 	flex-direction: row;
 }
 
-.info-section > div,
+.info-section>div,
 .rootless-jb-info {
 	display: flex;
 	flex-direction: column;
@@ -163,14 +161,14 @@ ul {
 	width: 35%;
 }
 
-.credits-section > div {
+.credits-section>div {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: auto;
 	gap: 2rem;
 }
 
-.credits-section > div > #last-row {
+.credits-section>div>#last-row {
 	grid-column: span 3;
 	display: flex;
 	justify-content: center;
@@ -232,7 +230,7 @@ ul {
 		display: none;
 	}
 
-	.info-section > div,
+	.info-section>div,
 	.rootless-jb-info,
 	.developer-info {
 		width: 90%;
@@ -267,7 +265,7 @@ ul {
 		font-size: 13px;
 	}
 
-	.credits-section > div {
+	.credits-section>div {
 		width: 90%;
 	}
 
@@ -277,7 +275,7 @@ ul {
 }
 
 @media (max-width: 1400px) {
-	.credits-section > div {
+	.credits-section>div {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -289,7 +287,7 @@ ul {
 		padding-block: 4rem;
 	}
 
-	.credits-section > div > #last-row {
+	.credits-section>div>#last-row {
 		display: flex;
 		flex-direction: column;
 		gap: 2rem;
