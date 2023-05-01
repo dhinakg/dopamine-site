@@ -225,7 +225,7 @@ ul {
 	margin-top: -10px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
 	.desktop-only {
 		display: none;
 	}
